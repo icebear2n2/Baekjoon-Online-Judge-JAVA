@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Number10998 {
+public class Number1008 {
     public static void main(String[] args) {
         int a, b;
 
@@ -8,6 +8,7 @@ public class Number10998 {
         a = sc.nextInt();
         b = sc.nextInt();
 
-        System.out.println(a * b);
+
+        System.out.println(a / (double) b);
     }
 }
