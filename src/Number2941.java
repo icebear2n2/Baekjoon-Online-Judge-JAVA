@@ -16,8 +16,19 @@ public class Number2941 {
         }};
         Scanner sc = new Scanner(System.in);
         String str = sc.nextLine();
+        int count = 0;
 
+        for (String value : (map).values()) {
+            if (str.contains(value)) {
+                str = str.replace(value, "1");
+            }
         }
+        String[] str2 = str.split("");
+        for (String s : str2) {
+            count += 1;
+        }
+        System.out.println(count);
+    }
 
 
 }
